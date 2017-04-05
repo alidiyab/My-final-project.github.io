@@ -1,0 +1,123 @@
+/*---------------------------------------------------------------*/
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none
+}
+
+nav{
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  position:relative;
+  width:980px;
+  margin-right: 53%;
+}
+#cssmenu ul li a{
+  line-height:1;
+  display:block;
+  position:relative;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  padding:17px;
+  font-size:13px;
+  letter-spacing:2px;
+  text-decoration:none;
+  color:#ddd;
+  font-weight:900;
+}
+#cssmenu > ul > li{
+  float:left;
+}
+#cssmenu > ul > li:hover{
+  background:#448D00!important;
+  -webkit-transition:background .3s ease;
+  -ms-transition:background .3s ease;
+  transition:background .3s ease;
+}
+#cssmenu ul li.active{
+  background:#448D00!important;
+}
+#cssmenu ul li {
+  background:rgba(0, 0, 0, 0.5);
+}
+
+
+.container #currentProjects{
+ margin-left:5px;
+ position:absolute;
+ top:150px;
+ left:15px;
+ font-size: 35px;
+ text-decoration:none;  
+}
+.container #favouriteProjects{
+ margin-left:5px;
+ position:absolute;
+ top:150px;
+ left:680px;
+ font-size: 35px;
+ text-decoration:none;  
+}
+.projects-link {
+  text-align: center;
+  position: relative;
+  background-color: #090d17;
+  padding: 20px 40px;
+  /*border-radius: 80px;*/
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 24px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.projects-link:hover {
+ /*border: #4186ab 1px solid;*/
+ background: #4186ab;
+ color: #000000;
+}
+.projects-link:active {
+ border: #1b435e;
+ background: #1b435e;
+}	
+
+.projects-link{
+ width: 40%;
+ /* margin: 0px 0px;*/
+ margin-top: 0px;
+}
+
+
+body{
+ background-size: 100%;
+ background-image: url("https://static.pexels.com/photos/187107/pexels-photo-187107.jpeg");
+}
+
+.projects-link:hover{
+ background: #4186ab;
+ color: #000000;
+}
+
+#row{
+  height: 40px ;
+  /*display: flex ;*/
+  flex-direction: column ;
+  justify-content: center ;
+  align-items: center ;
+  /*border: 0.1em solid #ffffff;*/
+  padding-top: 150px;
+  padding-left: 543px;
+  width: 8em;
+  background: rgba(0, 0, 0, 0.85);
+  text-align: left;
+  /*text-transform: uppercase;*/
+  font-family: 'Teko', sans-serif;
+  /*font-size: calc(1em + 2vmin);*/
+  font-weight: 600;
+  -webkit-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+  -moz-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+  box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+
+
+}
