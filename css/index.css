@@ -1,0 +1,101 @@
+
+body {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url("https://static.pexels.com/photos/216371/pexels-photo-216371.jpeg");
+}
+.intro2 {
+	margin-left:77%;
+	margin-top: 150px ;
+	font-family: 'Archivo Black', sans-serif;
+	line-height: 1.1;
+	font-size:28px;
+	line-height:1.0;
+	font-weight: 500;
+	color: #black;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+}
+#intro2{
+	margin-left:1%;
+	margin-top: 40px;	
+	font-size: 45px;
+}
+.style-text{
+	padding-left: 1%;
+	padding-top:100px;
+	font-family: 'Archivo Black', sans-serif;
+	line-height: 1.1;
+	font-size:45px;
+	line-height:1.0;
+	font-weight: 500;
+	color: #black;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+	0px -5px 35px rgba(255,255,255,0.3);
+
+}
+img#site-title {
+	max-width: 300px;
+	border-radius: 100%;
+	position: absolute;
+	margin: 145px 38%;
+	-webkit-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+	-moz-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+	box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
+}
+
+strong {
+	font-weight: 700;
+	color: #b3a577;
+	font-weight: bolder;
+	font-weight: inherit;
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------*/
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+nav{
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	position:absolute;
+	width:980px;
+	margin-right: 53%;
+}
+#cssmenu ul li.active{
+	background:#448D00!important;
+}
+#cssmenu ul li a{
+	line-height:1;
+	display:block;
+	position:relative;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:17px;
+	font-size:13px;
+	letter-spacing:2px;
+	text-decoration:none;
+	color:#ddd;
+	font-weight:900;
+}
+#cssmenu > ul > li{
+	float:left;
+}
+#cssmenu > ul > li:hover{
+	background:#448D00!important;
+	-webkit-transition:background .3s ease;
+	-ms-transition:background .3s ease;
+	transition:background .3s ease;
+}
+
+#cssmenu ul li {
+	background:rgba(0, 0, 0, 0.5);
+}
+
