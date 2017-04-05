@@ -1,0 +1,45 @@
+				/*---------------------------------------------------------------*/
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none
+}
+
+nav{
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	position:relative;
+	width:980px;
+	margin-right: 53%;
+}
+#cssmenu ul li a{
+	line-height:1;
+	display:block;
+	position:relative;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:17px;
+	font-size:13px;
+	letter-spacing:2px;
+	text-decoration:none;
+	color:#ddd;
+	font-weight:900;
+}
+#cssmenu > ul > li{
+	float:left;
+}
+#cssmenu > ul > li:hover{
+	background:#448D00!important;
+	-webkit-transition:background .3s ease;
+	-ms-transition:background .3s ease;
+	transition:background .3s ease;
+}
+
+#cssmenu ul li.active{
+	background:#448D00!important;
+}
+#cssmenu ul li {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+
