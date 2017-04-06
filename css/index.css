@@ -46,10 +46,11 @@ transition: all 0.40s;
 	background:#448d00!important;
 }
 
+/*_____________________________________________*/
 
 .intro2 {
 	margin-left:77%;
-	margin-top: 150px ;
+	margin-top: 50px ;
 	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
 	font-size:28px;
@@ -62,8 +63,8 @@ transition: all 0.40s;
 }
 #intro2{
 	margin-left:1%;
-	margin-top: 40px;	
 	font-size: 45px;
+	margin-bottom: 0;
 }
 .style-text{
 	padding-left: 1%;
@@ -73,7 +74,7 @@ transition: all 0.40s;
 	font-size:45px;
 	line-height:1.0;
 	font-weight: 500;
-	color: #black;
+	color: black;
 	text-align: left;
 	font-weight: bold;
 	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),

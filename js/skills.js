@@ -1,6 +1,7 @@
-var container = $('.container');
+$(document).ready(function(){
 
-$('#get').click(function () {
+	var container = $('.container');
+	$('#get').click(function () {
 	$.ajax({
 		type: 'GET',
 		url: 'skills.json',
@@ -10,8 +11,10 @@ $('#get').click(function () {
 				$.each(item,function (key, value) {
 					container.append("<li>Name: "+this['name']+"<br>&emsp;&emsp;Desc: "+this['desc']+"</li><br>")
 				})
-				container.append('<br/></br>')
 			})
 		}
 	})
 })
+})
+
+
