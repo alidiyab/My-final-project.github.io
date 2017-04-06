@@ -1,5 +1,4 @@
-{
-	"skills" : [
+[
 		{"name":"RUBY",
 			"desc":"It is a server side object oriented programming language. It is used for web development."
 		},
@@ -23,4 +22,3 @@
 			"desc":"It is a concept used in web development to send or recieve data without the need to reload the web page."
 		}
 	]
-}
