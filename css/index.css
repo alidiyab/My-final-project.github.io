@@ -1,8 +1,13 @@
 /*Navbar style*/
 
 html,body {
-	background:rgba(0, 0, 0, 0.72);
-font-family: arial, sans-serif;
+	/*	background:rgba(0, 0, 0, 0.72);*/
+	background-image: url("https://static.pexels.com/photos/6372/coffee-smartphone-desk-pen.jpg");
+	background-size: 100%;
+	font-family: arial, sans-serif;
+}
+img{
+	size: 100%;
 }
 *{
 	padding: 0px;
@@ -13,12 +18,12 @@ font-family: arial, sans-serif;
 	filter: (opacity=70)
 }
 #navdiv ul{
-width: 100%; 
-height: 80px;
-background: #0c0b09;
-line-height: 80px;
-color: white;
-margin-right: 15px;
+	width: 100%; 
+	height: 80px;
+	background: #0c0b09;
+	line-height: 80px;
+	color: white;
+	margin-right: 15px;
 }
 #navdiv ul a{
 
@@ -33,8 +38,8 @@ margin-right: 15px;
 }
 
 #navdiv ul li:hover{
-background: #448d00;
-transition: all 0.40s;
+	background: #448d00;
+	transition: all 0.40s;
 }
 #navdiv h1{
 	width: 300px; 
@@ -49,8 +54,8 @@ transition: all 0.40s;
 /*_____________________________________________*/
 
 .intro2 {
-	margin-left:77%;
-	margin-top: 50px ;
+	margin-left:47%;
+	margin-top: 100px ;
 	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
 	font-size:28px;
@@ -59,16 +64,19 @@ transition: all 0.40s;
 	color: black;
 	text-align: left;
 	font-weight: bold;
-	text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67);
+	text-shadow: 0 0 20px rgb(43, 62, 64),
+	-1px 20px 8px rgba(255,255,255,0.3);
+	opacity: 0.9;
+
 }
 #intro2{
-	margin-left:1%;
+	margin-top: 60px;
+	margin-left:47%;
 	font-size: 45px;
-	margin-bottom: 0;
 }
 .style-text{
-	padding-left: 1%;
-	padding-top:100px;
+	margin-left: 47%;
+	margin-top:40px;
 	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
 	font-size:45px;
@@ -77,15 +85,17 @@ transition: all 0.40s;
 	color: black;
 	text-align: left;
 	font-weight: bold;
-	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-	0px -5px 35px rgba(255,255,255,0.3);
+	text-shadow: 0 0 20px rgb(43, 62, 64),
+	-1px 20px 8px rgba(255,255,255,0.3);
+	opacity: 0.9;
 
 }
 img#site-title {
-	max-width: 300px;
+	max-width: 299px;
 	border-radius: 100%;
 	position: absolute;
-	margin: 145px 38%;
+	margin-top: -39px;
+	margin-left: 264px;
 	-webkit-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
 	-moz-box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
 	box-shadow: 0px 0px 12px 6px rgba(0,5,1,1);
@@ -93,9 +103,21 @@ img#site-title {
 
 strong {
 	font-weight: 700;
-	color: #b3a577;
+	color: rgba(4, 17, 31, 0.85);
 	font-weight: bolder;
 	font-weight: inherit;
 	font-weight: bold;
+}
+
+.myName{
+	font-weight:700;
+	font-family:'Playball',cursive;
+	font-size:50px;
+	color:#ccc;
+	margin-left: 72%;
+	padding:2px;
+}
+.myName::first-letter {
+	color:#448D02;
 }
 

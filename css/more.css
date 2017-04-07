@@ -46,3 +46,15 @@ transition: all 0.40s;
 	background:#448d00!important;
 }
 
+.myName{
+	font-weight:700;
+	font-family:'Playball',cursive;
+	font-size:50px;
+	color:#ccc;
+	margin-left: 72%;
+	padding:2px;
+}
+.myName::first-letter {
+	color:#448D02;
+}
+

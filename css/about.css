@@ -46,71 +46,14 @@ html,body {
 	background:#448d00!important;
 }
 
-
-
-.heading {
-	padding-bottom:15px;
-	text-align:left;
-	max-width:960px;
-	margin:0px auto;
-	padding-top:80px;
-	font-family: "Times New Roman", Georgia, serif;
-
-}
-
-h2{
+.myName{
 	font-weight:700;
 	font-family:'Playball',cursive;
 	font-size:50px;
 	color:#ccc;
-	margin-top:-70px;
 	margin-left: 72%;
-	padding:5px;
+	padding:2px;
 }
-h2::first-letter {
+.myName::first-letter {
 	color:#448D02;
-}
-.heading h3 {
-	font-size:16px;
-	line-height:1.7;
-}
-.papers,.papers:before,.papers:after {
-	background-color: rgba(0, 0, 0, 0.21);
-	border:1px solid #ccc;
-	-webkit-box-shadow: 10px 10px 16px 9px rgba(224,220,224,1);
-	-moz-box-shadow: 10px 10px 16px 9px rgba(224,220,224,1);
-	box-shadow: -1px 1px 20px 20px rgba(0, 0, 0, 0.5);
-}
-.papers {
-	font-family: "Times New Roman", Georgia, serif;
-
-	position:relative;
-	width:24%;
-	padding: 2px 15% 16% 20px;
-	margin-left: -150px;
-	margin-top:29px;
-	font-size:12px;
-}
-
-.papers p {
-	text-align:left;
-	margin:1.5em 0;
-
-}
-
-#papers{
-	position: relative;
-	width: 13%;
-	padding: 2px 15% 16% 20px;
-	margin-left: 458px;
-	margin-top: -473px;
-	font-size: 12px;
-}
-#papers2{
-	position: relative;
-	width: 13%;
-	padding: 2px 15% 16% 20px;
-	margin-left: 885px;
-	margin-top: -460px;
-	font-size: 12px;
 }

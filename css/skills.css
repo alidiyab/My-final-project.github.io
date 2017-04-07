@@ -53,3 +53,14 @@ html,body {
 	text-align: center;
 }
 
+.myName{
+	font-weight:700;
+	font-family:'Playball',cursive;
+	font-size:50px;
+	color:#ccc;
+	margin-left: 72%;
+	padding:2px;
+}
+.myName::first-letter {
+	color:#448D02;
+}
