@@ -4,3 +4,10 @@ $(document).ready(function() {
 	loadCurrentProj();
 })
 
+function bindClickEvent(event) {
+	$("#currentProjects").click(function(event) {
+		$('.currentPro').toggle();	
+		return loadCurrentProj(URL);
+	})
+}
+
