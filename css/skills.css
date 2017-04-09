@@ -3,6 +3,7 @@
 html,body {
 	background:rgba(0, 0, 0, 0.72);
 	font-family: arial, sans-serif;
+
 }
 *{
 	padding: 0px;
@@ -63,4 +64,35 @@ html,body {
 }
 .myName::first-letter {
 	color:#448D02;
+} 
+
+/*_______________showing the json data ____________*/
+
+#sections_btn_holder{
+	float: left;
+	width: 144px;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: -48px;
+}
+
+#sections_panel {
+	position: absolute;
+	height: 0px;
+	width: 900px;
+	background: #0e0d0c;
+	top: 80px;
+	left: 160px;
+	border-radius: 0px 0px 8px 8px;
+	overflow: hidden;
+	z-index: 10000;
+	transition: height 0.3s linear 0s;
+}
+
+#sections_panel > div{
+	background: #333;
+	padding: 20px;
+	height: 238px;
+	margin: 10px;
+	color: #FC0;
 }
