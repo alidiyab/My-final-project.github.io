@@ -78,3 +78,28 @@ input {
   font-family:'Lobster';
   width:50%;
 }
+
+a { color: inherit; 
+} 
+h2 {
+  color:black;
+  padding-left:1%;
+  padding-top:1%;
+}
+p {
+  padding-bottom: 1%;
+  padding-left:1%;
+  font-size:25px;
+}
+div {
+  border-radius:25px;
+}
+
+#output {
+  margin-top:1%;
+  border-radius:25px;
+  font-family:'Lobster';
+}
+h2 {
+  font-family:Times New Roman;
+}
