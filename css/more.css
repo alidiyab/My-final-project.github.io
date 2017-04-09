@@ -60,3 +60,21 @@ transition: all 0.40s;
 
 /*_____________ wikipedia serach ______________*/
 
+input {
+  width:80%;
+}
+.heading {
+  border-radius:25px;
+  margin:1%;
+  padding:1%;
+  display:inline-block;
+  font-family:'Lobster';
+}
+
+.heading img {
+  background-color:#0099cc;
+  border-radius:25px;
+  display:inline-block;
+  font-family:'Lobster';
+  width:50%;
+}
