@@ -11,3 +11,22 @@ function bindClickEvent(event) {
 	})
 }
 
+function loadCurrentProj(url){
+	$.get(url,function(data){
+		$('.currentPro').html('');
+		data.map(loadItm);
+}
+}
+// function loadItm(itm){
+// 	$('.currentPro').append(`<a href="${itm.html_url}">${itm.name}</a><br>`)
+
+// }
+
+
+
+// function navbarColor(){
+// 	$('ul.nav.navbar-nav > li').click(function(){
+// 		// $(this).children
+// 		console.log("aaa");
+// 	})
+// }
