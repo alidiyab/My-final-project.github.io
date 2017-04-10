@@ -1,12 +1,13 @@
 var URL="https://api.github.com/users/alidiyab/repos?sort=created&per_page=5";
 $(document).ready(function() {
 	bindClickEvent();
-	loadCurrentProj();
+	// loadCurrentProj();
 })
 
 function bindClickEvent(event) {
 	$("#currentProjects").click(function(event) {
 		loadCurrentProj(URL);
+			$('#result-current').toggle();
 	})
 }
 
@@ -15,11 +16,12 @@ function loadCurrentProj(url){
 		url:URL,
 		type:'get',
 		success:function(data){
-		showResults(data)
-	}
-})
+			showResults(data);
+		}
+	})
 }
 function showResults(data){
+	// debugger;
 	var html = '';
 	html+= '<ul>';
 	$.each(data, function(i,item){
@@ -30,5 +32,5 @@ function showResults(data){
 
 }
 
-// ___________________//
+//___________________//
 
