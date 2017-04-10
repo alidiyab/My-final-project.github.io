@@ -6,20 +6,29 @@ $(document).ready(function() {
 
 function bindClickEvent(event) {
 	$("#currentProjects").click(function(event) {
-		$('.currentPro').toggle();	
-		return loadCurrentProj(URL);
+		loadCurrentProj(URL);
 	})
 }
 
 function loadCurrentProj(url){
-	$.get(URL,function(data){
-		$('.currentPro').html('');
-		data.map(loadItm);
+	$.ajax({
+		url:URL,
+		type:'get',
+		success:function(data){
+		showResults(data)
+	}
 })
 }
-function loadItm(){
-	$('.currentPro').append("<a href='${itm.html_url}'>${itm.name}</a><br>")
+function showResults(data){
+	var html = '';
+	html+= '<ul>';
+	$.each(data, function(i,item){
+		html+= '<li><a href="'+item.html_url+'"> '+item.name+' </a></li>'
+	})
+	html+= '</ul>';
+	$('#result-current').html(html);
 
 }
 
-// ____________________-	
+// ___________________//
+
