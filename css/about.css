@@ -58,9 +58,15 @@ html,body {
 	color:#448D02;
 }
 
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
 
- /* ________ About me __________ */
 
+/* ________ About me __________ */
+/*
 
 .letter {
   background: #fff;
@@ -69,7 +75,12 @@ html,body {
   max-width: 550px;
   min-height: 300px;
   padding: 24px;
-  position: relative;
+  p.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+osition: relative;
   width: 80%;
 }
 .letter:before, .letter:after {
@@ -92,4 +103,6 @@ html,body {
   right: -3px;
   top: 1px;
   transform: rotate(1.4deg);
-}
+  }*/
+
+  

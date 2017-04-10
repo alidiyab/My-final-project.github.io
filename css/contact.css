@@ -1,16 +1,16 @@
 /*Navbar style*/
 
 html,body {
-	background:rgba(0, 0, 0, 0.72);
+  background:rgba(0, 0, 0, 0.72);
 font-family: arial, sans-serif;
 }
 *{
-	padding: 0px;
-	margin: 0px
+  padding: 0px;
+  margin: 0px
 }
 #navdiv{
-	opacity: 0.7;
-	filter: (opacity=70)
+  opacity: 0.7;
+  filter: (opacity=70)
 }
 #navdiv ul{
 width: 100%; 
@@ -22,39 +22,38 @@ margin-right: 15px;
 }
 #navdiv ul a{
 
-	text-decoration: none;
-	color: white;
-	padding: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
 }
 #navdiv ul li{
-	list-style-type: none;
-	display: inline-block;
-	float: right;
+  list-style-type: none;
+  display: inline-block;
+  float: right;
 }
 
 #navdiv ul li:hover{
-  background: #448d00;
-  transition: all 0.40s;
+background: #448d00;
+transition: all 0.40s;
 }
 #navdiv h1{
-	width: 300px; 
-	float: left;
-	cursor: pointer;
-	margin-left: 15px;
+  width: 300px; 
+  float: left;
+  cursor: pointer;
+  margin-left: 15px;
 }
 #navdiv ul li.active{
-	background:#448d00!important;
+  background:#448d00!important;
 }
 
 .myName{
-	font-weight:700;
-	font-family:'Playball',cursive;
-	font-size:50px;
-	color:#ccc;
-	margin-left: 72%;
-	padding:2px;
+  font-weight:700;
+  font-family:'Playball',cursive;
+  font-size:50px;
+  color:#ccc;
+  margin-left: 72%;
+  padding:2px;
 }
 .myName::first-letter {
-	color:#448D02;
+  color:#448D02;
 }
-
