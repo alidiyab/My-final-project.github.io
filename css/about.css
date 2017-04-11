@@ -1,7 +1,7 @@
 /*Navbar style*/
 
 html,body {
-	background:rgba(0, 0, 0, 0.72);
+	background:#E7E7E8;
 	font-family: arial, sans-serif;
 }
 *{
@@ -59,50 +59,81 @@ html,body {
 }
 
 .section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+	float: left;
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
 }
 
 
 /* ________ About me __________ */
-/*
 
-.letter {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  margin: 26px auto 0;
-  max-width: 550px;
-  min-height: 300px;
-  padding: 24px;
-  p.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-osition: relative;
-  width: 80%;
-}
-.letter:before, .letter:after {
-  content: "";
-  height: 98%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-}
-.letter:before {
-  background: #fafafa;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  left: -5px;
-  top: 4px;
-  transform: rotate(-2.5deg);
-}
-.letter:after {
-  background: #f6f6f6;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-  right: -3px;
-  top: 1px;
-  transform: rotate(1.4deg);
-  }*/
+#about p {padding:0 0 20px 0;font-size: 25px;margin-top: 30px;}
+#about h2 {text-transform:uppercase;font-size:80px;color:#333333;padding:20px 10px;line-height:80px;letter-spacing:-2px;text-align:right;}
+#about h2.lower {text-align:left;font-size:50px;line-height:60px;padding:0 0 20px 0;}
+#about h2 span{color:#d00b0b;}
+#about h3 {padding:20px 0 3px 0;}
 
-  
+h1, h2, h3, h4 {font-weight:bold;clear:both;font-family: 'Droid Sans', Arial, serif;}
+h1 {font-size:80px;line-height:100px;letter-spacing:-1px;color:#333333;}
+h2 {font-size:40px;line-height:60px;letter-spacing:-1px;color:#e0000e;}
+h3 {font-size:36px;line-height:46px;color:#e0000e;padding-top:5px;margin-top: -60px;}
+h4 {font-size:20px;line-height:24px;color:#d01717;}
+em {
+	font-family:"Georgia",Times New Roman, Serif;
+	font-style:italic;
+}
+#quote{
+	font-size: 20px;
+	font-family: monospace;
+}
+#author{
+	font-size: 20px;
+	font-family: fantasy;
+	margin-top: -65px;
+}
+#personalPic{
+	max-width: 300px;
+}
+
+.inner {
+	margin:0 auto;
+	padding:0;
+	width:980px;
+	position:relative;
+}
+#secondPic{
+	max-width: 460px;
+	margin-top: 50px;
+	margin-bottom: 400px;
+}
+#thirdPic{
+	margin-top: -300px;
+	margin-left: 22%;
+	margin-bottom: 150px;
+}
+	
+.block350,.block600 {
+	float:left;
+	display:inline;
+}
+.block350 {
+	width:350px;
+	padding-right:20px;
+}
+.block600 {
+	width:600px;
+	margin-top: 30px
+}
+
+.entry-title {
+	text-align:center;
+	letter-spacing:-3px;
+	text-shadow:0px 1px 0px #fff;
+	padding-bottom: 30px;
+}
+
+#lastP{
+	margin-left: 150px;
+	text-align: left;
+	font-size: 20px;
+}
