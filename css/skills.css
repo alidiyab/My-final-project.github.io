@@ -1,7 +1,7 @@
 /*Navbar style*/
 
 html,body {
-	background:rgba(0, 0, 0, 0.72);
+	background:#eee;
 	font-family: arial, sans-serif;
 
 }
@@ -52,6 +52,7 @@ html,body {
 	width: 100%;
 	margin-top: 60%;
 	text-align: center;
+	margin-left: 30%;
 }
 
 .myName{
@@ -95,4 +96,5 @@ html,body {
 	height: 238px;
 	margin: 10px;
 	color: #FC0;
-}
+
+

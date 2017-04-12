@@ -55,14 +55,14 @@ img{
 
 .style-text{
 	margin-left: 33%;
-	margin-top:36%;
+	margin-top:20%;
 	font-family: 'Archivo Black', sans-serif;
 	line-height: 1.1;
-	font-size:45px;
+	font-size:50px;
 	line-height:1.0;
 	font-weight: 500;
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
 	text-shadow: 0 0 20px rgb(43, 62, 64),
 	-1px 20px 8px rgba(255,255,255,0.3);
